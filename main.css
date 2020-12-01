@@ -1,0 +1,236 @@
+* {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.background-home{
+  width: 100%;
+  height: 864px;
+  background: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.ellipse{
+  width: 887px;
+  height: 1024px;
+  background: linear-gradient(to left, rgba(8,240,255,1), rgba(6,17,121,1) 30%);
+  opacity: 1;
+  position: absolute;
+  top: -90px;
+  left: -611px;
+  border: 5px solid  rgba(144,115,106,1);;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hello {
+  width: 120px;
+  color: rgba(245,237,237,1);
+  position: absolute;
+  top: 180px;
+  left: 430px;
+  font-family: Colonna MT;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Im {
+  width: 91px;
+  color: rgba(244,234,234,1);
+  position: absolute;
+  top: 275px;
+  left: 494px;
+  font-family: Clicker Script;
+  font-weight: Regular;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+
+.name {
+  width: 736px;
+  background: linear-gradient(rgba(42,18,11,1), rgba(239,205,195,1));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 330px;
+  left: 560px;
+  border: 3px;
+  font-family: Charmonman;
+  font-weight: Bold;
+  font-size: 120px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tagline {
+  width: 944px;
+  color: rgba(214,211,211,1);
+  position: absolute;
+  top: 550px;
+  left: 430px;
+  font-family: Aladin;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+
+.resume-button{
+  width: 291px;
+  height: 42px;
+  position: absolute;
+  top: 700px;
+  left: 750px;
+  background: rgba(144,115,106,1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  border-radius: 40px;
+  color: rgba(0,0,0,1);
+  font-family: Mada;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: center;
+}
+
+.resume-button:hover{
+  background: rgba(43,19,12,1);
+  width: 291px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 700px;
+  left: 750px;
+  color: white;
+  font-family: Mada;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: center;
+}
+
+.profile-pic{
+  width: 372px;
+  height: 586px;
+  background: url("images/profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  left: 65px;
+  border: 5px solid rgba(144,115,106,1);;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+
+
+.about{
+  width: 100%;
+  height: 864px;
+  background: linear-gradient(180deg, #071D80 1.03%, #09F1FF 46.29%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.ellipse-about{
+  position: absolute;
+  width: 1399.97px;
+  height: 1877.27px;
+  left: 100px;
+  top: -100px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #071E81 0%, rgba(7, 30, 129, 0) 0.01%, #071E81 100%);
+  border: 1px solid rgba(66, 34, 34, 0.5);
+  box-sizing: border-box;
+  transform: rotate(52.24deg);
+  border-radius: 50%;
+
+}
+.abt-bg{
+  
+  position: absolute;
+  text-align: center;
+  width: 1190px;
+  height: 385px;
+  right: 15px;
+  top: 280px;
+  background: rgba(9, 234, 251, 0.4);
+  border-radius: 90px;
+}
+.abt{
+  position: absolute;
+  
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  font-family: Cormorant Upright;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.about-head p {
+  position: absolute;
+  width: 252px;
+  height: 100px;
+  left: 165px;
+  top: 102px;
+
+  font-family: Caveat Brush;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #000000;
+
+}
+
+.about-head img{
+  position: absolute;
+  width: 500px;
+  height: 149.25px;
+  left: 102px;
+  top: 100px;
+
+  
+  transform: rotate(-12.52deg);
+}
